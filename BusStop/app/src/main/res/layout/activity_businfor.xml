@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtStopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Bus Stop Name"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Bus"
+        android:textSize="20sp"
+        android:layout_marginStart="188dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="114dp"
+        android:layout_marginLeft="188dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="114dp"
+        android:text="Last Bus"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="307dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtWeekDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WeekDay"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="146dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/txtFirstBus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="146dp"
+        android:text="00:00"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLastBus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="146dp"
+        android:text="00:00"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="307dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195dp"
+        android:text="Bus Time"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="199dp"
+        android:layout_height="33dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        android:layout_marginLeft="188dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="195dp"
+        android:layout_marginStart="188dp" />
+
+    <ListView
+        android:id="@+id/listViewTime"
+        android:layout_width="121dp"
+        android:layout_height="305dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="286dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="238dp"
+        android:text="Time"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="29dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="238dp"
+        android:text="Corespendances"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="170dp" />
+
+    <TextView
+        android:id="@+id/txtAttention"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="65dp"
+        android:text="Attention!!! Attention!!! Attention!!! Attention!!! Attention!!!"
+        android:textSize="35sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit ="marquee_forever"/>
+
+    <ListView
+        android:id="@+id/listViewCorrespondances"
+        android:layout_width="224dp"
+        android:layout_height="301dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="285dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="170dp" />
+
+</android.support.constraint.ConstraintLayout>

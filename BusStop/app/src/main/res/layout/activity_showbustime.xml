@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="172dp"
+        android:text="Your next bus will depart in:"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTimeProchain"
+        android:layout_width="387dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="229dp"
+        android:gravity="center"
+        android:text="Time"
+        android:textSize="50sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="28dp"
+        android:text="BusStopName"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="125dp" />
+
+    <TextView
+        android:id="@+id/txtBusNumber"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="BusStopName"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+</android.support.constraint.ConstraintLayout>

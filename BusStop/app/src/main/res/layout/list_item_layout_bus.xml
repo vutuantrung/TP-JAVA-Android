@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_busIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtTimeProchain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="min"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/txtBusStopName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/txtBusStopName" />
+
+    <TextView
+        android:id="@+id/txtBusStopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BusStop Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/imageView_busIcon"
+        android:layout_toEndOf="@+id/imageView_busIcon" />
+
+
+</RelativeLayout>

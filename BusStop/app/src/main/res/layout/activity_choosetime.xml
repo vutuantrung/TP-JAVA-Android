@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="131dp"
+        android:text="Choisir l'heure depart"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="64dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="263dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="16dp"
+        android:text="Voir la prochain Depart"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="74dp" />
+
+    <Button
+        android:id="@+id/btnDepart1"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="60dp"
+        android:text="Click"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="124dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDepart2"
+        android:layout_width="144dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="527dp"
+        android:text="OK"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="133dp" />
+
+</android.support.constraint.ConstraintLayout>

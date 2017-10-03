@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.intech.vutuantrung.android.busstop.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Bus Stop"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Route" />
+
+    <Button
+        android:id="@+id/btnFavoris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnMap"
+        android:layout_alignStart="@+id/btnMap"
+        android:layout_below="@+id/btnMap"
+        android:layout_marginTop="20dp"
+        android:text="Favoris" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnRoute"
+        android:layout_alignStart="@+id/btnRoute"
+        android:layout_below="@+id/btnChooseBus"
+        android:layout_marginTop="20dp"
+        android:text="Map" />
+
+    <Button
+        android:id="@+id/btnChooseBus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRoute"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Choose Bus" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnFavoris"
+        android:layout_alignStart="@+id/btnFavoris"
+        android:layout_below="@+id/btnFavoris"
+        android:layout_marginTop="20dp"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/btnSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAbout"
+        android:layout_alignStart="@+id/btnAbout"
+        android:layout_below="@+id/btnAbout"
+        android:layout_marginTop="20dp"
+        android:text="Schedule" />
+</RelativeLayout>
